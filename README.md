@@ -9,9 +9,9 @@ This plugin is a proof of concept to explain how to create a custom field in WP 
 ## Code summary
 In this plugin, we will:
 1. register a new "WooCommerce" group of form fields with the `simpay_custom_field_group_labels` filter
-2. register a new "Product Dropwodn" custom form field with the `simpay_custom_field_options` filter
+2. register a new "Product Dropdown" custom form field with the `simpay_custom_field_options` filter
 3. output our necessary form field settings with the `simpay_admin_{$key}_field_template` filter
-4. output the frontend HTML markup for our new field with the `simpay_custom_field_html_for_non_native_fields` filter
+4. output the frontend HTML markup for our new WP Simple Pay form field with the `simpay_custom_field_html_for_non_native_fields` filter
 
 ## Tutorial
 Full tutorial is available on https://saika.li/wp-simple-pay-custom-field
