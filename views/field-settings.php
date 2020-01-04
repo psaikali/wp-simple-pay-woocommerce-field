@@ -8,6 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 $counter = absint( $counter );
 ?>
 
+<!-- Label input -->
 <tr class="simpay-panel-field">
 	<th>
 		<label for="<?php echo 'simpay-wc-product-label-' . $counter; ?>">
@@ -28,6 +29,7 @@ $counter = absint( $counter );
 	</td>
 </tr>
 
+<!-- Products select (multiple) -->
 <tr class="simpay-panel-field">
 	<th>
 		<label for="<?php echo 'simpay-wc-product-products-' . $counter; ?>">
@@ -51,6 +53,7 @@ $counter = absint( $counter );
 	</td>
 </tr>
 
+<!-- Stripe metadata input -->
 <tr class="simpay-panel-field">
 	<th>
 		<label for="<?php echo 'simpay-wc-product-metadata-' . $counter; ?>">
