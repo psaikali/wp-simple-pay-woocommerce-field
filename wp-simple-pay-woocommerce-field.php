@@ -119,9 +119,9 @@ function get_wc_products() {
  * @param object $form
  * @return string $html
  */
-function display_addon_checkbox_frontend_html( $html, $item, $form ) {
-	if ( 'wc-product' === $item['type'] ) {
-		$html .= output_wc_product_field_html( $item );
+function display_addon_checkbox_frontend_html( $html, $field, $form ) {
+	if ( 'wc-product' === $field['type'] ) {
+		$html .= output_wc_product_field_html( $field );
 	}
 
 	return $html;
