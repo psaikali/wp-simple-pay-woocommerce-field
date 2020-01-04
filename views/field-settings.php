@@ -11,7 +11,7 @@ $counter = absint( $counter );
 <!-- Label input -->
 <tr class="simpay-panel-field">
 	<th>
-		<label for="<?php echo 'simpay-wc-product-label-' . $counter; ?>">
+		<label for="<?php echo "simpay-wc-product-label-{$counter}"; ?>">
 			<?php esc_html_e( 'Form Field Label', 'simple-pay' ); ?>
 		</label>
 	</th>
@@ -32,7 +32,7 @@ $counter = absint( $counter );
 <!-- Products select (multiple) -->
 <tr class="simpay-panel-field">
 	<th>
-		<label for="<?php echo 'simpay-wc-product-products-' . $counter; ?>">
+		<label for="<?php echo "simpay-wc-product-products-{$counter}"; ?>">
 			<?php esc_html_e( 'Products', 'swcp' ); ?>
 		</label>
 	</th>
@@ -56,7 +56,7 @@ $counter = absint( $counter );
 <!-- Stripe metadata input -->
 <tr class="simpay-panel-field">
 	<th>
-		<label for="<?php echo 'simpay-wc-product-metadata-' . $counter; ?>">
+		<label for="<?php echo "simpay-wc-product-metadata-{$counter}"; ?>">
 			<?php esc_html_e( 'Stripe Metadata Label', 'swcp' ); ?>
 		</label>
 	</th>
